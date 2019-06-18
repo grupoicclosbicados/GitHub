@@ -1,0 +1,32 @@
+def tamaño(x):
+    if x == "Pequeño":
+        print("             * * *             ")
+        print("            *     *            ")
+        print("            *     *            ")
+        print("             * * *             ")
+    elif x == "Mediano":
+        print("           * * * *          ")
+        print("        * *       * *       ")
+        print("       *             *      ")
+        print("      *               *     ")
+        print("      *               *     ")
+        print("      *               *     ")
+        print("       *             *      ")
+        print("        * *       * *       ")
+        print("           * * * *          ")
+    elif x == "Grande":
+        print("          * * * *              ")
+        print("       * *       * *           ")
+        print("    * *             * *        ")
+        print("   *                   *       ")
+        print("  *                     *      ")
+        print("  *                     *      ")
+        print("  *                     *      ")
+        print("  *                     *      ")
+        print("   *                   *       ")
+        print("    * *             * *        ")
+        print("       * *       * *           ")
+        print("          * * * *              ")
+        print("                               ")
+    else:
+        print("Por favor, ingrese el tamaño redactado correctamente")
